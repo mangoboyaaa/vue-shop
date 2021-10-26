@@ -1,0 +1,44 @@
+{
+  "id": "2886105",
+  "name": "sssss",
+  "font_family": "iconfont",
+  "css_prefix_text": "icon-",
+  "description": "",
+  "glyphs": [
+    {
+      "icon_id": "23880815",
+      "name": "通知公告",
+      "font_class": "tongzhigonggao",
+      "unicode": "e60f",
+      "unicode_decimal": 58895
+    },
+    {
+      "icon_id": "23899462",
+      "name": "知识产权",
+      "font_class": "zhengceguizhang2",
+      "unicode": "e617",
+      "unicode_decimal": 58903
+    },
+    {
+      "icon_id": "23953032",
+      "name": "联盟专家",
+      "font_class": "lianmengzhuanjia",
+      "unicode": "e61a",
+      "unicode_decimal": 58906
+    },
+    {
+      "icon_id": "24035284",
+      "name": "学生",
+      "font_class": "xuesheng",
+      "unicode": "e61d",
+      "unicode_decimal": 58909
+    },
+    {
+      "icon_id": "24035287",
+      "name": "校园服务,服务大厅",
+      "font_class": "a-xiaoyuanfuwufuwudating",
+      "unicode": "e61e",
+      "unicode_decimal": 58910
+    }
+  ]
+}
