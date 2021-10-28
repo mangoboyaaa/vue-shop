@@ -16,7 +16,6 @@ axios.interceptors.request.use(config=>{
   return config
 
 
-
 })
 
 new Vue({
