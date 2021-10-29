@@ -5,15 +5,17 @@ import './plugins/element.js'
 import './assets/css/global.css'
 import axios from 'axios'
 import './assets/font_2886105_3csdefatfzs/iconfont.css'
+import TreeTable from 'vue-table-with-tree-grid'
 Vue.config.productionTip = false
 Vue.prototype.$http=axios
 //配置请求的根路径
 axios.defaults.baseURL='https://lianghj.top:8888/api/private/v1/'
 axios.interceptors.request.use(config=>{
 
-  
+  Vue.component('treeTable',TreeTable)
   config.headers.Authorization=window.sessionStorage.getItem('token')
   return config
+
 
 
 })
