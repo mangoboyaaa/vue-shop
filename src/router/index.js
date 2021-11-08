@@ -8,6 +8,9 @@ import rights from '../components/power/rights'
 import roles from '../components/power/roles'
 import categories from '../components/goods/categories'
 import params from '../components/goods/params'
+import list from '../components/goods/list'
+import add from '../components/goods/add'
+import order from '../components/order/order'
 Vue.use(VueRouter)
 
 
@@ -47,6 +50,17 @@ const router = new VueRouter({
 },{
   path:'/params',
   component:params
+},{
+  path:'/goods',
+  component:list,
+  
+},{
+  path:'/goods/add',
+    component:add
+},
+{
+  path:'/orders',
+  component:order
 }
 
 ]

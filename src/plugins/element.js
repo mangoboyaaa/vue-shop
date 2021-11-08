@@ -1,8 +1,13 @@
 import Vue from 'vue'
 import { Button } from 'element-ui'
 import { Form, FormItem, Input } from 'element-ui'
-import {Tabs,TabPane,Alert,Cascader,Select,Option,Tree,Tag, MessageBox, Dialog, Pagination, Tooltip, Switch, Table, TableColumn, Row, Col, Card, BreadcrumbItem, Breadcrumb, Message, Container, Header, Aside, Main, Submenu, Menu, MenuItem } from 'element-ui'
+import {Upload,Checkbox,CheckboxGroup,Step,Steps,Tabs,TabPane,Alert,Cascader,Select,Option,Tree,Tag, MessageBox, Dialog, Pagination, Tooltip, Switch, Table, TableColumn, Row, Col, Card, BreadcrumbItem, Breadcrumb, Message, Container, Header, Aside, Main, Submenu, Menu, MenuItem } from 'element-ui'
+Vue.use(Checkbox)
+Vue.use(Upload)
 Vue.use(TabPane)
+Vue.use(CheckboxGroup)
+Vue.use(Steps)
+Vue.use(Step)
 Vue.use(Tabs)
 Vue.use(Select)
 Vue.use(Option)

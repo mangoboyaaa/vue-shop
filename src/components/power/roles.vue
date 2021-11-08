@@ -34,7 +34,8 @@
         <el-table-column type="expand">
           <template slot-scope="scope">
             <el-row
-              :class="['bdbottom', i1 === 0 ? 'bdtop' : '', 'vcenter']"
+            :class="['bdbottom',i1===0?'bdtop':'' ,'vcenter']"
+              
               v-for="(item1, i1) in scope.row.children"
               :key="item1.id"
             >
@@ -343,7 +344,7 @@ export default {
   border-top: 1px, solid, #eee;
 }
 .bdbottom {
-  border-bottom: 1px, solid, #eee;
+ border-bottom: 1px solid #eee;
 }
 
 .vcenter {
