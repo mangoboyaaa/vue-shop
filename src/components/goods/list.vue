@@ -113,9 +113,10 @@ export default {
     },
     async goodsedit(id){
         const {data:res} = await this.$http.put('goods/'+id,{
-
+             
         })
-        if(res.meta.status!==201) return this.$message.error(请求失败)
+        console.log(res)
+        if(res.meta.status!==201) return this.$message.error('请求失败')
         this.$message.success('请求成功')
 
     },
